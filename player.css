@@ -1,0 +1,86 @@
+html{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    
+}
+body{
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+/* div{
+    border: 1px solid red;
+} */
+#azmat{
+   border: 3px solid rgba(128, 128, 128, 0.626);
+   margin: 2% 7%;
+}
+
+.channelInfo,.joinSubscribe,.section2,.img{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+}
+.img{
+    gap: 10px;
+}
+.channelInfo{
+    justify-content: space-between;
+    margin: 2% 7%;
+}
+.channelInfo img{
+    width: 88px;
+    height: 88px;
+    border-radius: 40px;
+}
+.channelInfo a{
+    text-decoration: none;
+    color: white;
+}
+.section2{
+    justify-content: space-evenly;
+}
+.section2 a{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+.joinSubscribe{
+    gap: 1%;
+}
+.joinSubscribe a{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+
+#commentSection{
+    border-left: 1px solid gray;
+    padding: 10px;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.cardimg img{
+    align-self: flex-start;
+    border-radius: 15px;
+}
+.card h4,.card p{
+    margin: 0 20px;
+    margin-bottom: 5px;
+}
+.card span{
+    margin: 20px;
+    margin-right: 5px;
+}
+.cardspanlikecount{
+    margin: 0 !important;
+}

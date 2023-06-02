@@ -1,0 +1,81 @@
+html{
+   background-color: black;
+}
+#serachBox{
+   margin: 1% 9%;
+   margin-top: 2%;
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   align-items: center;
+   height: 60px;
+   gap: 20px;
+}
+#serachBox input,#serachBox button{
+   height: 100%;
+   background-color:  transparent;
+   color: white;
+   font-size: 30px;
+   border: 2px solid gray;
+   margin: 0;
+   padding: auto;
+   border-radius: 15px;
+
+}
+#serachBox button{
+   background-color:  white;
+   color: black;
+}
+#serachBox button:hover{
+  transform: scale(0.9);
+}
+
+#container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+   border: 5px solid black;
+   margin: 0% 8%;
+}
+.videoBox{
+   border: 1px solid rgba(128, 128, 128, 0.567);
+   border-radius: 20px;
+}
+.headerVideo{
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   height: 300px;
+   width: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   position: relative;
+}
+.videoBox:hover{
+   transform: scale(1.009);
+}
+.videoBox>div>p{
+   color: white;
+   padding: 10px;
+   margin: 0;
+   font-size: 20px;
+}
+.videoBox>div>p~p{
+   color: rgba(255, 255, 255, 0.57);
+   padding: 10px;
+   margin: 0;
+   font-size: 20px;
+}
+.duration-content{
+   display: flex;
+   justify-content: space-between;
+}
+.d{
+   background-color: rgba(128, 128, 128, 0.104);
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.456);
+   color: rgba(255, 255, 255, 0.805);
+   padding: 10px;
+   border-radius: 10px;
+}

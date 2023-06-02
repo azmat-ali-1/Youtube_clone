@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./player.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div id="container">
+        <div id="azmat">
+        
+        </div>
+        <div class="channelInfo">
+            <div class="img" >
+               <div> <img src="https://www.seekpng.com/png/small/41-410093_circled-user-icon-user-profile-icon-png.png" alt=""></div>
+                <div class="name">
+                    <span id="n">name</span>
+                    <br>
+                    <span id="s">subscribers</span>
+                </div>
+            </div>
+           
+            <div class="joinSubscribe">
+            <a href="#">Join</a>
+            <a href="#">Subscribe</a>
+            </div>
+
+
+            <div class="section2">
+                <a href="#"><span class="material-symbols-outlined" style="font-size: 30px;">
+                    thumb_up
+                    </span><span id="l"></span></a>
+                <a href="#">
+                    <span class="material-symbols-outlined" style="font-size: 30px;">
+                        thumb_down
+                        </span></a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        share
+                        </span> share</a>
+                <a href="#">...</a>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div id="commentSection">
+
+    </div>
+    <script>
+        let div= document.getElementById("azmat");
+        div.innerText = document.cookie;
+    </script>
+    <script src="http://www.youtube.com/iframe_api"></script>
+    <script src="./player.js"></script>
+</body>
+</html>
